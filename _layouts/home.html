@@ -2,13 +2,51 @@
 layout: default
 ---
 
-<div class="ui page grid main">
+<!-- <div class="ui page grid main">
   <div class="row">
     <div class="column padding-reset">
       <div class="ui large message">
         <h1 class="ui huge header">Hi!</h1>
         <p>Test for home page</p>
       </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="main">
+  <div class="ui inverted vertical masthead center aligned segment">
+    <div class="ui text container">
+      <h1 class="ui inverted header">
+        Hi! I'm Nikhil
+      </h1>
+      <h2>I am a Computer Science Student at the University of Florida</h2>
+      <h2>Currently I am working as a Software Engineering Intern at Drawbridge</h2>
+      <h2>Check out my...</h2>
+      <div class="ui three column stackable grid">
+        <div class="four column centered row" style="padding-top: 35px;">
+          <div class="column">
+            <a href = "{{ site.baseurl }}/assets/resume.pdf">
+              <div class="ui huge inverted button">
+                Resume
+              </div>
+            </a>
+          </div>
+          <div class="column">
+            <a href = "https://linkedin.com/in/{{site.linkedin_username}}">
+              <div class="ui huge inverted button">
+                LinkedIn
+              </div>
+            </a>
+          </div>
+          <div class="column">
+            <a href = "https://github.com/{{site.github_username}}">
+              <div class="ui huge inverted button">
+                Github
+              </div>
+            </a>
+          </div>
+        </div>
+    </div>
     </div>
   </div>
 </div>

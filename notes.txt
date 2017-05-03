@@ -1,0 +1,2 @@
+In semantic.min.css:
+  - search for ui.inverted.menu .item:before{backgro and change the background to match the background of inverted

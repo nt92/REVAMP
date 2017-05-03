@@ -1,3 +1,5 @@
+/* home.html */
+
 *{
   margin: 0;
   padding: 0;
@@ -5,7 +7,6 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
-  margin-bottom: 60px;
 }
 
 h1.item{
@@ -13,8 +14,28 @@ h1.item{
   margin-bottom: 0;
 }
 
-.ui.grid.main{
-  margin-top: 90px;
+a.item::before{
+  background: : #FFFFFF;
+}
+.masthead.segment {
+  min-height: 100vh;
+}
+
+.masthead .ui.menu {
+  margin-left: 0.5em;
+}
+.ui.button {
+  margin-left: 0.5em;
+}
+.masthead h1.ui.header {
+  margin-top: 2.4em;
+  margin-bottom: 0em;
+  font-size: 3.5em;
+  font-weight: normal;
+}
+.masthead h2 {
+  font-size: 1.4em;
+  font-weight: normal;
 }
 
 .mobile.row{
@@ -48,3 +69,5 @@ h1.item{
   width: 100%;
   display: none;
 }
+
+/* end home.html */
