@@ -29,3 +29,17 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  work:
+    output: true
+    permalink: /work/:path/
+  education:
+    output: true
+    permalink: /education/:path/
+  extracurricular:
+    output: true
+    permalink: /extracurricular/:path/

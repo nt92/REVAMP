@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+<div class="projects inverted" style="background-color: rgba(27,28,29,1);">
+  <div class="ui container inverted vertical mastheadproj center aligned segment">
+    <div class=" ui segment inverted">
+      <h1 class="ui inverted header">Skills</h1>
+      <div class = "ui three column grid stackable">
+        <div class=" column">
+          <h2 class="ui header inverted">Mobile</h2>
+          <p>I am proficient in both iOS and Android development and enjoy creating full stack applications for personal fun
+          projects, hackathons, or school projects.</p>
+        </div>
+        <div class=" column">
+          <h2 class="ui header inverted">Web</h2>
+          <p>Web content</p>
+        </div>
+        <div class=" column">
+          <h2 class="ui header inverted">Development</h2>
+          <p>Development content</p>
+        </div>
+      </div>
+      <h1 class="ui inverted header">Projects</h1>
+      <div class = "ui three stackable special cards dark">
+        {% assign projects = site.projects | reverse %}
+        {% for project in projects %}
+
+        <div class="card dark">
+          <div class="blurring dimmable image">
+            <div class="ui dimmer">
+              <div class="content">
+                <div class="center">
+                  <a href="{{ project.url | prepend: site.baseurl }}">
+                    <div class="ui inverted button">View Post</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            {% if project.image %}
+            <img src="{{ site.baseurl }}/assets/images/{{ project.image }}">
+            {% else %}
+            <img src="{{ site.baseurl }}/assets/images/inProgress.png">
+            {% endif%}
+          </div>
+          <div class="content">
+            <a class="header" href="{{ project.url | prepend: site.baseurl }}">{{ project.title}}</a>
+            <div class="meta">
+              <span class="date">{{ project.role }}</span>
+            </div>
+            <div class="list">
+              {{ project.brief }}
+            </div>
+          </div>
+          <div class="ui divider inverted"></div>
+          <div class="extra content">
+            <!-- Add some date parsing here -->
+            <div>
+              <i class="calendar outline icon"></i>
+              {{ project.start }} --> {{ project.end }}
+            </div>
+          </div>
+        </div>
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  $('.special.cards .image').dimmer({
+    on: 'hover'
+  });
+</script>
