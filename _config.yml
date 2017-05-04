@@ -34,9 +34,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  work:
+  experience:
     output: true
-    permalink: /work/:path/
+    permalink: /experience/:path/
   education:
     output: true
     permalink: /education/:path/
