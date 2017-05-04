@@ -40,6 +40,6 @@ collections:
   education:
     output: true
     permalink: /education/:path/
-  extracurricular:
+  involvement:
     output: true
-    permalink: /extracurricular/:path/
+    permalink: /involvement/:path/
