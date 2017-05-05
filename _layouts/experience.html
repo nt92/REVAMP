@@ -37,26 +37,12 @@ layout: default
               {{ job.start }} --> {{ job.end }}
           </div>
         </div>
-
         {% endfor %}
       </div>
-    </div>
-  </div>
 
-  <script>
-    $('.special.cards .image').dimmer({
-      on: 'hover'
-    });
-  </script>
-
-</div>
-
-<!-- <div class="experience inverted" style="background-color: rgba(27,28,29,1);">
-  <div class="ui container inverted vertical mastheadproj center aligned segment">
-    <div class=" ui segment inverted">
-      <h1 class="ui inverted header">Experience</h1>
+      <h1 class="ui header inverted">Leadership</h1>
       <div class = "ui three stackable special cards dark">
-        {% assign work = site.experience | reverse %}
+        {% assign works = site.involvement | reverse %}
         {% for job in works %}
         <div class="card dark">
           <div class="blurring dimmable image">
@@ -80,19 +66,19 @@ layout: default
               {{job.brief}}
             </div>
           </div>
+          <div class="ui divider inverted"></div>
           <div class="extra content">
               <i class="calendar outline icon"></i>
-              {{ job.start }} to {{ job.end }}
+              {{ job.start }} --> {{ job.end }}
           </div>
         </div>
         {% endfor %}
       </div>
     </div>
   </div>
+  <script>
+    $('.special.cards .image').dimmer({
+      on: 'hover'
+    });
+  </script>
 </div>
-
-<script>
-  $('.special.cards .image').dimmer({
-    on: 'hover'
-  });
-</script> -->
