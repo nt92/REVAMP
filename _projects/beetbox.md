@@ -1,7 +1,7 @@
 ---
 layout: projectPost
 title: BeetBox
-role: Project Creator
+role: Project Lead
 categories: extinct
 image: beetbox.jpg
 start: January 2016
