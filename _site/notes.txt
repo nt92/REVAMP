@@ -1,2 +1,9 @@
 In semantic.min.css:
   - search for ui.inverted.menu .item:before{backgro and change the background to match the background of inverted
+
+TODO
+- Add TA position
+- About page: info about myself and misc stuff: music, random projects, outdoors stuff. add a contact page
+- Speech: https://www.youtube.com/watch?v=tDS5EofIIGQ&feature=share
+- Bassoon: https://goo.gl/photos/zZus4NnXaA3wK9tR7 - https://youtu.be/9wbnYnIzeqI
+- Skydive: https://youtu.be/_bDsrTagSxw

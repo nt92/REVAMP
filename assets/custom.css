@@ -213,3 +213,11 @@ a.item::before{
 }
 
 /* end projects.html */
+
+/* start about.html */
+
+#c_name, #c_email, #c_message{
+  max-width: 600px;
+}
+
+/* end about.html */
