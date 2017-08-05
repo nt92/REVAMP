@@ -6,7 +6,6 @@ $(document).ready(function(){
    $('.ui.dropdown').dropdown();
 
    $('#contact-form').submit(function(e) {
-     console.log('yue');
    	e.preventDefault();
    	var c_name = $('#c_name').val();
    	var c_email = $('#c_email').val();
@@ -32,9 +31,12 @@ $(document).ready(function(){
    			data        : formData, // our data object
    			dataType    : 'json', // what type of data do we expect back from the server
    			encode      : true,
-   		success		: function(res){
-   			var ret = $.parseJSON(JSON.stringify(res));
-   			response.html(ret.message).fadeIn(500);
+     		success		: function(res){
+     			var ret = $.parseJSON(JSON.stringify(res));
+     			response.html(ret.message).fadeIn(500);
+          $('#c_name').val("");
+          $('#c_email').val("");
+          $('#c_message').val("");
    			}
    		});
    	}
