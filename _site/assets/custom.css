@@ -212,6 +212,14 @@ a.item::before{
   font-weight: normal;
 }
 
+img[alt=graphic] {
+  width: 250px;
+  float: left;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+
 /* end projects.html */
 
 /* start about.html */
