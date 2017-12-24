@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>AVIAN</title>
-  <meta name="description" content="">
+  <meta name="description" content="AVIAN is an interdisciplinary team of researchers developing methods and tools for jointly optimizing signal control and vehicle movement to improve mobility...">
 
   <!-- <link rel="stylesheet" href="/assets/main.css"> -->
   <link rel="shortcut icon" href="/assets/favicon.ico">
@@ -93,7 +93,24 @@
 				<div class="ui grid">
 					<div class="twelve wide centered column">
 			<div class="post-content" itemprop="articleBody">
-				
+				<p>AVIAN is an interdisciplinary <a href="http://avian.essie.ufl.edu/team/">team</a> of researchers developing methods and tools for jointly optimizing signal control and vehicle movement to improve mobility by exploiting capabilities of connected and autonomous vehicles. The project is <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1446813&amp;HistoricalAwards=false">funded</a> by the National Science Foundation and is expected to be completed by 2019.</p>
+
+<p>The vast majority of the team members were Ph.D candidates and those who have had extensive experience in academia, and I was an undergraduate way in over his head with a bit of CS experience. Needless to say it was a very valuable experience as I learned from very smart people how the research process works, with the very slight iterations and improvements made over time. I joined the group and my initial responsibility was to visualize the speed data for the drivers of the semi-autonomous vehicles… simple right?</p>
+
+<p>Unfortunately due to the nature of the technology being used (20 year old radios) I couldn’t simple transfer data from the receivers to an Android tablet due to the limitations of libUSB. Later on, we decided to have the radios transmit UDP signals and have that being picked up by a JavaFX application running on a laptop that would do the data processing and visualize the proper speed limit to go every 1-2 seconds.</p>
+
+<h3 id="learning-areas">Learning Areas</h3>
+<ul>
+  <li>User Experience Research</li>
+  <li>Multithreading in Java</li>
+  <li>JavaFX UI creation</li>
+  <li>libUSB and its limitations</li>
+  <li>UDP and TCP Networking</li>
+  <li>The tedium involved in the academic research process</li>
+</ul>
+
+<h3 id="status">Status</h3>
+<p>The project is still being worked on. The first major system integration test was conducted at the traffic test facility in Tallahassee, FL and it was mostly a success. There were some issues with the autonomous vehicles which will be worked on and demoed in the future. For the web application, development has been taken over by someone else, and future work includes making the user interface more polished, improve the threading efficiency, and providing more granularity for the driver’s options.</p>
 
 			</div>
 		</div>
