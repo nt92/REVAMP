@@ -29,6 +29,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+plugins_dir:
+  - jekyll-redirect-from
 
 collections:
   projects:

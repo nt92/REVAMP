@@ -220,6 +220,10 @@ img[alt=graphic] {
   margin-right: 30px;
 }
 
+img[alt=frontpage] {
+  width: 700px;
+}
+
 /* end projects.html */
 
 /* start about.html */
