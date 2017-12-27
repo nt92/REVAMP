@@ -33,9 +33,6 @@ plugins_dir:
   - jekyll-redirect-from
 
 collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
   experience:
     output: true
     permalink: /experience/:path/

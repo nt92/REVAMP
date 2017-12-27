@@ -2,7 +2,8 @@ In semantic.min.css:
   - search for ui.inverted.menu .item:before{backgro and change the background to match the background of inverted
 
 TODO
-- tigerzone
+- Merge projects and work experience
+- Travel page - blog
 - education page
 - Speech: https://www.youtube.com/watch?v=tDS5EofIIGQ&feature=share
 - Skydive: https://youtu.be/_bDsrTagSxw
