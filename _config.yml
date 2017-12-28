@@ -36,9 +36,6 @@ collections:
   experience:
     output: true
     permalink: /experience/:path/
-  education:
+  blog:
     output: true
-    permalink: /education/:path/
-  involvement:
-    output: true
-    permalink: /involvement/:path/
+    permalink: /blog/:path/

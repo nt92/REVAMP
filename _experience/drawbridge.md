@@ -9,3 +9,6 @@ location: San Francisco, California
 brief: Developed system to prevent click fraud and improved the granularity of the bidding algorithms
 date: 2017-06-30 00:00:00
 ---
+# A Summer in Silicon Valley
+
+### What I Learned
