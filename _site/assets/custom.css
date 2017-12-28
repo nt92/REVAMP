@@ -226,6 +226,18 @@ img[alt=frontpage] {
 
 /* end projects.html */
 
+/* start blog.html */
+
+.featured{
+  background: #4C4C4C;
+}
+
+.white{
+  color: white;
+}
+
+/* end blog.html */
+
 /* start about.html */
 
 #c_name, #c_email, #c_message{

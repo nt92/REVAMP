@@ -32,8 +32,8 @@
     <header class="header site-header" role="banner">
   <div class="ui grid">
     <div class="computer tablet only row">
-      <div class="ui inverted fixed menu navbar page grid">
-        <h1 class="item">Nikhil Thota</h1>
+      <div class="ui inverted fixed menu navbar page grid" style="padding-left: 35px; padding-right: 35px;">
+        <a href="/" class="item"><h1 class="item">Nikhil Thota</h1></a>
         <div class="right menu">
           <a href="/" class="item">Home</a>
           <a href="/experience" class="item">Experience</a>
@@ -43,9 +43,9 @@
         </div>
       </div>
     </div>
-    <div class="mobile only row inverted" style="background-color: rgba(27,28,29,1);">
+    <div class="mobile only row inverted" style="background-color: rgba(27,28,29,1); padding-left: 35px; padding-right: 35px;">
       <div class="ui fixed inverted navbar menu">
-        <h1 class="item">Nikhil Thota</h1>
+        <a href="/" class="item"><h1 class="item">Nikhil Thota</h1></a>
         <div class="right menu open">
           <a href="" class="menu item">
             <i class="content icon"></i>
@@ -66,12 +66,52 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="projects inverted" style="background-color: rgba(27,28,29,1);">
-  <div class="ui container inverted vertical mastheadproj center aligned segment">
-    <div class=" ui segment inverted">
-      <h1 class="ui inverted header"></h1>
-      <div class = "ui one stackable special cards dark">
+        <div class="blog inverted" style="background-color: rgba(27,28,29,1);">
+  <div class="ui container inverted vertical mastheadproj center aligned segment grid">
+    <h1 class="ui header inverted"></h1>
+    <div class=" ui segment inverted row" style="padding-top: 0px; margin-top: 0px;">
+      <div class="peek sidebar visible five wide column">
+        <h6></h6>
+        <div class="ui tertiary segment inverted" style="background:#4C4C4C">
+          <h3 class="inverted">Featured</h3>
+          <p>Filler text about the featured blog post</p>
+          <a class ="white" href="#">Read More →</a>
+        </div>
+      </div>
+      <div class = "ui one stackable special cards dark eleven wide column">
         
+        
+        <div class="card dark">
+          <div class="blurring dimmable image">
+            <div class="ui dimmer">
+              <div class="content">
+                <div class="center">
+                  <a href="/blog/test2/">
+                    <div class="ui inverted button">Read More</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <img src="/assets/images/screentime.png">
+          </div>
+          <div class="content">
+            <a class="header" href="http://www.screentimeuf.com/" target="_blank">ScreenTime</a>
+            <div class="meta">
+              <span class="date">CEO</span>
+            </div>
+            <div class="list">
+              Led a team to create business plan for ScreenTime, a time-blocked video conferencing platform marketplace connecting content creators to their supporters
+            </div>
+          </div>
+          <div class="ui divider inverted"></div>
+          <div class="extra content">
+            <div>
+              <i class="calendar outline icon"></i>
+              August 2017 → November 2017
+            </div>
+          </div>
+        </div>
+        <h1></h1>
         
         <div class="card dark">
           <div class="blurring dimmable image">
@@ -97,13 +137,13 @@
           </div>
           <div class="ui divider inverted"></div>
           <div class="extra content">
-            <!-- Add some date parsing here -->
             <div>
               <i class="calendar outline icon"></i>
-              May 2017 ---> September 2017
+              May 2017 → September 2017
             </div>
           </div>
         </div>
+        <h1></h1>
         
       </div>
     </div>
