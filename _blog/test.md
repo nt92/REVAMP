@@ -1,8 +1,7 @@
 ---
-layout: projectPost
+layout: blogPost
 title: Tuna Pasta
-role: Content Creator & Audio Engineer & Web Developer
-categories:
+categories: ['Travel', 'Creative']
 image: tunapasta.png
 start: May 2017
 end: September 2017

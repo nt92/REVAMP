@@ -31,14 +31,16 @@ layout: default
           </div>
           <div class="content">
             <a class="header" href="{{ post.siteURL }}" target="_blank">{{ post.title}}</a>
-            <div class="meta">
-              <span class="date">{{ post.role }}</span>
-            </div>
             <div class="list">
               {{ post.brief }}
             </div>
+            <div class="extra">
+              {% for category in post.categories %}
+                <div class="ui label inverted" style="background:#4C4C4C; margin-top:10px;">{{ category }}</div>
+              {% endfor %}
+            </div>
           </div>
-          <div class="ui divider inverted"></div>
+          <div class="ui divider inverted" style="margin:5px;"></div>
           <div class="extra content">
             <div>
               <i class="calendar outline icon"></i>
