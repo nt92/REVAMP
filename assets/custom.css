@@ -10,6 +10,14 @@ h1.item{
   margin-bottom: 0;
 }
 
+h2.span.a{
+  text-decoration: underline;
+
+  :hover{
+    color: white;
+  }
+}
+
 a.item::before{
   background: : #FFFFFF;
 }

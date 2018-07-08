@@ -2,8 +2,10 @@ In semantic.min.css:
   - search for ui.inverted.menu .item:before{backgro and change the background to match the background of inverted
 
 TODO
-- blog - have category on post, figure out what else on the sidebar, design the post, design the detailed post 
+- blog - have category on post, figure out what else on the sidebar, design the post, design the detailed post
+- Content revamp: skills --> Web, Mobile, Development (make more relevant). other --> Language learning, music, travel (add content)
 - education page
 - Add page limit (9 per page?)
+- Better way to showcase stuff I've done
 - Speech: https://www.youtube.com/watch?v=tDS5EofIIGQ&feature=share
 - Skydive: https://youtu.be/_bDsrTagSxw
