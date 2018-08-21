@@ -28,11 +28,13 @@ a.item::before{
 .masthead .ui.menu {
   margin-left: 0.5em;
 }
+
 .ui.button {
-  margin-left: 0.5em;
+  margin-left: 0.9em;
 }
+
 .masthead h1.ui.header {
-  margin-top: 2.8em;
+  margin-top: 2.3em;
   margin-bottom: 0em;
   font-size: 3.5em;
   font-weight: normal;
