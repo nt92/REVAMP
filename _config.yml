@@ -20,12 +20,12 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://nikhilthota.com" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: nikhil-thota-ab2731104
-github_username:  nt92
 
 # Build settings
 markdown: kramdown
 gems:
   - jekyll-feed
+  # - jekyll-paginate-v2
 exclude:
   - Gemfile
   - Gemfile.lock

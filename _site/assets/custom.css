@@ -234,6 +234,11 @@ img[alt=frontpage] {
   width: 700px;
 }
 
+img[alt=wholesome] {
+  margin-top: 15px;
+  width: 750px;
+}
+
 /* end projects.html */
 
 /* start blog.html */
