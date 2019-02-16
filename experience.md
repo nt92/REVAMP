@@ -1,4 +1,0 @@
----
-layout: experience
-permalink: /experience/
----

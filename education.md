@@ -1,4 +1,0 @@
----
-layout: education
-permalink: /education/
----
